@@ -87,6 +87,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@heroicons/react@npm:1.0.1"
+  peerDependencies:
+    react: ">= 16"
+  checksum: ff13b6b896c21d1e9a952afc8d646d95fa34174716f2a741ee0db2300d10903a6c708b1fb1d841a461a61eb055c104a2be3367fe236a25d3e7576704183743ff
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:10.2.2":
   version: 10.2.2
   resolution: "@next/env@npm:10.2.2"
@@ -1611,7 +1620,9 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "hulu-2@workspace:."
   dependencies:
+    "@heroicons/react": ^1.0.1
     autoprefixer: latest
+    install: ^0.13.0
     next: 10.2.2
     postcss: latest
     react: 17.0.2
@@ -1703,6 +1714,13 @@ fsevents@~2.3.1:
   version: 2.0.3
   resolution: "inherits@npm:2.0.3"
   checksum: 9488f9433effbc24474f6baee8014e5337c7f99305ecb4204fa5864ae7655c24225780d87fc65ed8d3d374715a18c5dc8c69fe3bf9745cde2e7acd0ac068a07b
+  languageName: node
+  linkType: hard
+
+"install@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "install@npm:0.13.0"
+  checksum: ccb9caa85166de28af041bdfe945d949420c1de3101522acf7b211476c255301de4bc4bb74db2a3373f846f58a8213333110c3503230671f8e958b698b60d6cf
   languageName: node
   linkType: hard
 
