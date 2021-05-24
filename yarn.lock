@@ -1627,6 +1627,7 @@ fsevents@~2.3.1:
     postcss: latest
     react: 17.0.2
     react-dom: 17.0.2
+    react-flip-move: ^3.0.4
     tailwind-scrollbar-hide: ^1.0.3
     tailwindcss: latest
   languageName: unknown
@@ -2978,6 +2979,16 @@ fsevents@~2.3.1:
   peerDependencies:
     react: 17.0.2
   checksum: 960a74ff6670766846a73097a599115963df1574833c59ca0c2fd909758ebe7a6214cd14f5e6aa63ce846d8f39fde7f3b80474ccfcfadc45dd7f3246364718c6
+  languageName: node
+  linkType: hard
+
+"react-flip-move@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "react-flip-move@npm:3.0.4"
+  peerDependencies:
+    react: ">=16.3.x"
+    react-dom: ">=16.3.x"
+  checksum: ff6bf7b8ecb5e88012ac9625633cc13831b816ef6c64014454ffd1201b0b0c3687ce0d96a03e0b282c9d05cd5a68cd1bf68e9287eae58bcd2dc0a6b96fba3270
   languageName: node
   linkType: hard
 
